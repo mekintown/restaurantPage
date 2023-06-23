@@ -1,3 +1,12 @@
 import './style.css';
+import createHeader from './header';
+import createHome from './home';
 
-console.log("test")
+
+function createPage() {
+    const body = document.querySelector("body");
+    body.appendChild(createHeader());
+    body.appendChild(createHome());
+}
+
+createPage();

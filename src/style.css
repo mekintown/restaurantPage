@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Tangerine';
+    src: url(./asset/fonts/Tangerine/Tangerine-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: 'Tangerine';
+    src: url(./asset/fonts/Tangerine/Tangerine-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+:root {
+    --primary-color: #103026;
+    --accent-color: #cabd66;
+}
+
+
+header {
+    background-color: var(--primary-color);
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--accent-color)
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+.home {
+    content: "";
+    width: 100vw;
+    height: 95vh;
+    background-image: url(../src/asset/images/hero.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.restaurant-name {
+    font-size: 10rem;
+    color: white;
+    border-bottom: 0.2rem solid var(--primary-color);
+    font-family: "Tangerine", sans-serif
+}
+
+.menus-btn {
+    appearance: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: var(--accent-color);
+    padding: 10px 20px;
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+}
+
+.logo {
+    font-family: "Tangerine", sans-serif;
+    font-size: 3rem;
+}
