@@ -5,7 +5,7 @@ function createMenu() {
     section.classList.add("menu");
 
     const h2 = document.createElement("h2");
-    h2.textContent = "Menu";
+    h2.textContent = "MENUS";
     section.appendChild(h2);
 
     const div = document.createElement("div");
