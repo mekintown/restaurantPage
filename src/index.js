@@ -1,6 +1,7 @@
 import './style.css';
 import createHeader from './header';
 import createHome from './home';
+import createMenu from './menu';
 
 
 function createPage() {
